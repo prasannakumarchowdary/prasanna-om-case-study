@@ -35,6 +35,7 @@ write a script that will take `tfplan.json` file ( A terraform plan file convert
 Add code to the `script.py` file in the `scripting` folder.
 script will be tested agains the `*.tfplan` files in that directory.
 
+
 ## 2. Infrastructure As Code
 
 You have a Terraform configuration that deploys a set of resources using the count meta argument. Currently, you have deployed 5 resources.
