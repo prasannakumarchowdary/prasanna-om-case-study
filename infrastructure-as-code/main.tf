@@ -5,7 +5,7 @@ variable "files" {
 }
 
 resource "local_file" "foo" {
-count = var.files
+  count    = var.files
   content  = "# Some content for file ${count.index}"
   filename = "file${count.index}.txt"
 }
