@@ -79,6 +79,6 @@ make sure it is the only action/step in the ecxample template
 
 
 ## 5. Submission
-commit your code to a github repository and give acces to "adamaucamp"
-(or make the repo public if you want.)
+Commit your code to a github repository and give acces to "adamaucamp"
+(or make the repo public if you want.) But do send the relevant git repo link to adam.aucamp@oldmutual.com when finished.
 
