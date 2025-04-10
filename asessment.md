@@ -77,6 +77,8 @@ https://backstage.io/docs/features/software-templates/writing-custom-actions
 add the custom action to the example template in the repo
 make sure it is the only action/step in the ecxample template
 
+
+## 5. Submission
 commit your code to a github repository and give acces to "adamaucamp"
 (or make the repo public if you want.)
 
