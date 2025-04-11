@@ -1,6 +1,6 @@
-# Assessment 
+# Case Study 
 
-This assessment consists of 4 parts, and the themes are as follows:
+This case study consists of 4 parts, and the themes are as follows:
 
 - Containers
 - Infrastructure as Code
