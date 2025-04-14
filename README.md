@@ -37,8 +37,8 @@ write a script that will take `tfplan.json` file ( A terraform plan file convert
 - the `modify` step must ONLY modify the resource's `tags` attribute and then only the `GitCommitHash` tag
 - if anything else is being modified or destroyed the plan must not proceed (Print out the action that must be taken)
 
-Add code to the `script.py` file in the `scripting` folder (you can use any language to solve, as long as you also provide instruction on how to excute said script or code agains the test files).
-script will be tested agains the `*.tfplan` files in that directory.
+Add code to the `script.py` file in the `scripting` folder (you can use any language to solve, as long as you also provide instructions on how to excute said script or code agains the test files).
+The script will be tested agains the `*.tfplan` files in that directory.
 
 
 ## 2. Infrastructure As Code
@@ -76,7 +76,7 @@ the custom action must have an id of "my:custom:action"
 https://backstage.io/docs/features/software-templates/writing-custom-actions
 
 add the custom action to the example template in the repo
-make sure it is the only action/step in the ecxample template
+make sure it is the only action/step in the example template
 
 
 ## 5. Submission
