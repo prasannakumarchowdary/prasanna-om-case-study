@@ -21,6 +21,7 @@ Extra -> a (Hopefully) new problem and domain, that will be used to assess novel
 Knowledge and tools required to complete:
 - Git
 - Docker
+- Terraform
 - Node.js (javascript)
 - One Of: Python, Bash, Ruby, Powershell, etc for scripting
 
