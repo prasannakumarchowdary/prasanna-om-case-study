@@ -50,8 +50,9 @@ The count variable is part of the resource naming convention.
 
 How would you go about deleting the "2nd" resource while ensuring that the other resources remain unchanged? Please provide a detailed explanation of the steps you would take and any Terraform features or commands you would use to achieve this. Please add these steps/actions to the `steps-to-fix.md` file in the `infrastructure-as-code` folder.
 
-[hints](https://developer.hashicorp.com/terraform/cli/commands/state/mv)
-[hints](https://developer.hashicorp.com/terraform/language/meta-arguments/for_each)
+[https://developer.hashicorp.com/terraform/cli/commands/state/mv](https://developer.hashicorp.com/terraform/cli/commands/state/mv)
+
+[https://developer.hashicorp.com/terraform/language/meta-arguments/for_each](https://developer.hashicorp.com/terraform/language/meta-arguments/for_each)
 
 Manually deleting and renaming resources may work but is not the optimal solution.
 You must be able to run `terraform apply` at the end and it must report "no changes".
@@ -68,12 +69,13 @@ All of the following actions must be taken in the "wild" directory:
 
 Create a new instance of backstage
 
-https://backstage.io/docs/getting-started/
+(https://backstage.io/docs/getting-started/)[https://backstage.io/docs/getting-started/]
 
-Create a custom action that will create a new file
-the custom action must have an id of "my:custom:action"
+Create a custom action that will create a new file in the temp workspace.
 
-https://backstage.io/docs/features/software-templates/writing-custom-actions
+The custom action must have an id of `my:custom:action`.
+
+(https://backstage.io/docs/features/software-templates/writing-custom-actions)[https://backstage.io/docs/features/software-templates/writing-custom-actions]
 
 add the custom action to the example template in the repo
 make sure it is the only action/step in the example template
