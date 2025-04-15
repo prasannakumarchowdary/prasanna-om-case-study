@@ -69,13 +69,13 @@ All of the following actions must be taken in the "wild" directory:
 
 Create a new instance of backstage
 
-(https://backstage.io/docs/getting-started/)[https://backstage.io/docs/getting-started/]
+[https://backstage.io/docs/getting-started/](https://backstage.io/docs/getting-started/)
 
 Create a custom action that will create a new file in the temp workspace.
 
 The custom action must have an id of `my:custom:action`.
 
-(https://backstage.io/docs/features/software-templates/writing-custom-actions)[https://backstage.io/docs/features/software-templates/writing-custom-actions]
+[https://backstage.io/docs/features/software-templates/writing-custom-actions](https://backstage.io/docs/features/software-templates/writing-custom-actions)
 
 add the custom action to the example template in the repo
 make sure it is the only action/step in the example template
