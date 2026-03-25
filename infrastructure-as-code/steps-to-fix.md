@@ -12,6 +12,7 @@ To safely remove the 2nd resource, we must move from `count` to `for_each` to en
 
 1. Convert the configuration from `count` to `for_each`:
 
+for_each provides stable resource addressing, unlike count which depends on index positions.
 
 for_each = {
   "0" = ...
@@ -29,7 +30,7 @@ terraform state mv resource[0] resource["0"]
 terraform state mv resource[1] resource["1"]
 terraform state mv resource[2] resource["2"]
 terraform state mv resource[3] resource["3"]
-terraform state mv resource["4"] resource["4"]
+terraform state mv resource[4] resource["4"]
 
 
 3. Remove the 2nd resource from state:
