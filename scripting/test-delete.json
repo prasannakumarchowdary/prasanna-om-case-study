@@ -1,0 +1,13 @@
+{
+  "resource_changes": [
+    {
+      "address": "test.resource",
+      "change": {
+        "actions": ["delete"],
+        "before": {},
+        "after": null
+      }
+    }
+  ]
+}
+

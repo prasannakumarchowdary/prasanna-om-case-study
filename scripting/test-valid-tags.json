@@ -1,0 +1,21 @@
+{
+  "resource_changes": [
+    {
+      "address": "test.tags",
+      "change": {
+        "actions": ["update"],
+        "before": {
+          "tags": {
+            "GitCommitHash": "abc"
+          }
+        },
+        "after": {
+          "tags": {
+            "GitCommitHash": "xyz"
+          }
+        }
+      }
+    }
+  ]
+}
+

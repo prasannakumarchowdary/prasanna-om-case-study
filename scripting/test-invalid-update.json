@@ -1,0 +1,17 @@
+{
+  "resource_changes": [
+    {
+      "address": "test.invalid",
+      "change": {
+        "actions": ["update"],
+        "before": {
+          "name": "old"
+        },
+        "after": {
+          "name": "new"
+        }
+      }
+    }
+  ]
+}
+
