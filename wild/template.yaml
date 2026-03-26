@@ -1,0 +1,12 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: custom-template
+  title: Custom Action Template
+spec:
+  steps:
+    - id: my-step
+      name: Run custom action
+      action: my:custom:action
+      input:
+        filename: output.txt
