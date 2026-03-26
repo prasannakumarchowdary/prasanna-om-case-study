@@ -7,6 +7,8 @@ npm-debug.log
 **/.terraform/*
 *.tfvars
 *.tfplan
+*.tfstate
+*.tfstate.backup
 crash.log
 .terraformrc
 terraform.rc
