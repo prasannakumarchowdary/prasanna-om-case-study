@@ -9,6 +9,7 @@ npm-debug.log
 *.tfplan
 *.tfstate
 *.tfstate.backup
+.terraform.lock.hcl
 crash.log
 .terraformrc
 terraform.rc
